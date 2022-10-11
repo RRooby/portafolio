@@ -3,7 +3,7 @@
 
 
 :root{
-    --green:#197f45;
+    --green:#05865b;
     --orage:#ef9919;
     --white: #ffffff;
     --grey:#dad2ca;
@@ -135,10 +135,17 @@ label>img{
 }
 
 .header-information{
-    padding: 1.5rem;
     text-align: center;
     align-items: center;
     justify-content: center;
+
+} 
+
+.header-info-resp{
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
@@ -147,19 +154,13 @@ label>img{
     max-width: 350px; 
     margin: 0 auto;
     min-width: 220px;
+    order: 2;
 } 
 
 .header-image>img{
     border-radius: 2.5rem;
     height: 200px; 
 } 
-
-@media screen and (min-width:800px) {
-    .header-information{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
 
 .header-experience{
     background-color: var(--white);
@@ -424,6 +425,7 @@ progress::-moz-progress-bar{
 
 .contact-info{
     color: var(--dack-grey);
+    font-size: 1rem;
 }
 
 
@@ -431,10 +433,15 @@ progress::-moz-progress-bar{
     background-color: var(--green);
     text-align: center;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem;
     margin: 0 auto;
     color: var(--white);
 }
+small{
+    color: rgb(184, 181, 181);
+}
+
+
 
 
 
